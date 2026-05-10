@@ -68,7 +68,7 @@ portswigger-web-security-academy/
 
 | Lab | Difficulty | OWASP | CVSSv3 | Writeup |
 |---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+|Login bypass via SQL injection | Apprentice | A03:2021 | 9.8 Critical | [writeup](./writeups/xss/Writeup) |
 
 ---
 
