@@ -62,7 +62,7 @@ EXAMPLE ROW — copy and fill when you solve a lab:
 
 | Lab | Difficulty | CVSSv3 | Writeup |
 |---|---|---|---|
-| SQL injection in WHERE clause | Apprentice | 9.8 Critical | [open](./writeups/sql-injection/writeup-where-clause.md) |
+| SQL injection in WHERE clause | Apprentice | 9.8 Critical | [open](./writeups/xss/writeup-where-clause.md) |
 <!--
 EXAMPLE ROW:
 | Reflected XSS into HTML context | Apprentice | 6.1 Medium | [open](./writeups/xss/writeup-reflected-html-context.md) |
