@@ -33,106 +33,134 @@
 
 ---
 
-## Repository Structure
+## Writeups
 
-```
-portswigger-web-security-academy/
-│
-├── writeups/
-│   ├── sql-injection/
-│   │   ├── writeup-[lab-name].md
-│   │   └── writeup-[lab-name].md
-│   ├── xss/
-│   │   ├── writeup-[lab-name].md
-│   │   └── writeup-[lab-name].md
-│   ├── csrf/
-│   ├── ssrf/
-│   ├── xxe/
-│   ├── access-control/
-│   ├── authentication/
-│   ├── os-command-injection/
-│   └── business-logic/
-│
-├── writeup-template.md
-└── README.md
-```
+> Click any category to expand. Click a lab name to open the writeup.
 
-> Screenshots for each lab are embedded directly inside the writeup file.
-> Each writeup is self-contained — no separate folders needed.
+<details>
+<summary><b>SQL Injection</b> &nbsp;|&nbsp; A03:2021 – Injection &nbsp;|&nbsp; 0 / 18 solved</summary>
+
+<br>
+
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
+
+<!--
+EXAMPLE ROW — copy and fill when you solve a lab:
+| SQL injection vulnerability in WHERE clause | Apprentice | 9.8 Critical | [open](./writeups/sql-injection/writeup-where-clause.md) |
+-->
+
+</details>
 
 ---
 
-## Writeups Index
+<details>
+<summary><b>Cross-Site Scripting (XSS)</b> &nbsp;|&nbsp; A03:2021 – Injection &nbsp;|&nbsp; 0 / 30 solved</summary>
 
-### SQL Injection
+<br>
 
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-|Login bypass via SQL injection | Apprentice | A03:2021 | 9.8 Critical | [writeup](./writeups/xss/Writeup) |
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
 
----
+<!--
+EXAMPLE ROW:
+| Reflected XSS into HTML context | Apprentice | 6.1 Medium | [open](./writeups/xss/writeup-reflected-html-context.md) |
+-->
 
-### Cross-Site Scripting (XSS)
-
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
-
----
-
-### Cross-Site Request Forgery (CSRF)
-
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+</details>
 
 ---
 
-### Server-Side Request Forgery (SSRF)
+<details>
+<summary><b>Cross-Site Request Forgery (CSRF)</b> &nbsp;|&nbsp; A01:2021 – Broken Access Control &nbsp;|&nbsp; 0 / 12 solved</summary>
 
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+<br>
 
----
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
 
-### XML External Entity (XXE)
-
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+</details>
 
 ---
 
-### Access Control
+<details>
+<summary><b>Server-Side Request Forgery (SSRF)</b> &nbsp;|&nbsp; A10:2021 – SSRF &nbsp;|&nbsp; 0 / 7 solved</summary>
 
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+<br>
 
----
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
 
-### Authentication
-
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+</details>
 
 ---
 
-### OS Command Injection
+<details>
+<summary><b>XML External Entity (XXE)</b> &nbsp;|&nbsp; A05:2021 – Security Misconfiguration &nbsp;|&nbsp; 0 / 9 solved</summary>
 
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+<br>
+
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
+
+</details>
 
 ---
 
-### Business Logic
+<details>
+<summary><b>Access Control</b> &nbsp;|&nbsp; A01:2021 – Broken Access Control &nbsp;|&nbsp; 0 / 28 solved</summary>
 
-| Lab | Difficulty | OWASP | CVSSv3 | Writeup |
-|---|---|---|---|---|
-| *(labs will appear here as solved)* | — | — | — | — |
+<br>
+
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
+
+</details>
+
+---
+
+<details>
+<summary><b>Authentication</b> &nbsp;|&nbsp; A07:2021 – Identification Failures &nbsp;|&nbsp; 0 / 14 solved</summary>
+
+<br>
+
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
+
+</details>
+
+---
+
+<details>
+<summary><b>OS Command Injection</b> &nbsp;|&nbsp; A03:2021 – Injection &nbsp;|&nbsp; 0 / 5 solved</summary>
+
+<br>
+
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
+
+</details>
+
+---
+
+<details>
+<summary><b>Business Logic</b> &nbsp;|&nbsp; A04:2021 – Insecure Design &nbsp;|&nbsp; 0 / 11 solved</summary>
+
+<br>
+
+| Lab | Difficulty | CVSSv3 | Writeup |
+|---|---|---|---|
+| *(no writeups yet)* | — | — | — |
+
+</details>
 
 ---
 
