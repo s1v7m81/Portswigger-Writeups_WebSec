@@ -27,7 +27,7 @@ SQLi
 
 **Step 1 — Ensure the Vulnerability**
 
-See the parameter use in login by burp suite.
+See the parameter use in login with use of burp suite.
 
 <img width="690" height="301" alt="image" src="https://github.com/user-attachments/assets/182132b4-aaa3-4431-858b-323d9d95294b" />
 
