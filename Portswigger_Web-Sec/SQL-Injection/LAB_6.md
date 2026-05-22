@@ -28,6 +28,7 @@ SQL quary use in this lab refence from MySQL documantation. You can refer that d
 
 [**MySQL documantation**](https://dev.mysql.com/doc/refman/9.7/en/information-schema.html).
 
+---
 
 ## Steps to Solve
 
