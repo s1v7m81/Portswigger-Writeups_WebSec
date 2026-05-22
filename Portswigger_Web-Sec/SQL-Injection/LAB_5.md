@@ -24,9 +24,9 @@ SQLi-UNION
 
 ## Prerequites
 
-**SQL quary use in this lab refence from **MySQL documantation**. You can refer that documantation for **more information** and **understanding**.**
+SQL quary use in this lab refence from **MySQL documantation**. You can refer that documantation for **more information** and **understanding**.
 
-**MySQL documantation [https://dev.mysql.com/doc/refman/9.7/en/information-schema.html].**
+[**MySQL documantation**](https://dev.mysql.com/doc/refman/9.7/en/information-schema.html).
 
 ---
 
