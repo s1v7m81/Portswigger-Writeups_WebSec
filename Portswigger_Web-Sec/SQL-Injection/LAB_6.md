@@ -22,11 +22,18 @@ SQLi-UNION
 
 ---
 
+## Prerequisites
+
+SQL quary use in this lab refence from MySQL documantation. You can refer that documantation for more information and understanding.
+
+[**MySQL documantation**](https://dev.mysql.com/doc/refman/9.7/en/information-schema.html).
+
+
 ## Steps to Solve
 
 **Step 1 — Something twisted check it**
 
-We follow the same ste as previous lab [LAB_5]() but here something gone wrong and ater investingate we found that database have 2 columns but both not have accept sting value.
+We follow the same ste as previous lab [**LAB_5**](https://github.com/s1v7m81/Portswigger-Writeups_WebSec/blob/main/Portswigger_Web-Sec/SQL-Injection/LAB_5.md) but here something gone wrong and ater investingate we found that database have 2 columns but both not have accept sting value.
 
 First indetify 2 columns and then we enter this quary to accepted data type by DBMS.
 ```http
@@ -56,10 +63,10 @@ Conformed that 1st column accept **INTEGER** value.
 
 **Step 2 — Actual Task**
 
-Now we have clear structure by doing further task as do in LAB_5 and ready for retreive the data from DBMS.
+Now we have clear structure by doing further task as do in [**LAB_5**](https://github.com/s1v7m81/Portswigger-Writeups_WebSec/blob/main/Portswigger_Web-Sec/SQL-Injection/LAB_5.md) and ready for retreive the data from DBMS.
 But here in this lab some thing diffrent by purpose of learning we need to take data in **single column by concatenating with one symbol**.
 
-So we can use thi quary:
+So we can use this quary:
 
 ```http
 ' union select null,CONCAT(username,':', password) from public.users-- -
