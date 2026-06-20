@@ -128,18 +128,4 @@ Password found: **666666**
 
 ---
 
-## Key Insight
-
-```
-Account locking protects against:
-Targeted brute-force of ONE specific account
-
-Account locking does NOT protect against:
-Username enumeration (lock message itself leaks validity)
-Brute-forcing MANY accounts with FEW passwords each (see Lab 6)
-Credential stuffing attacks
-```
-
----
-
 *This writeup is intended for educational purposes only. All techniques documented here were performed on PortSwigger's intentionally vulnerable practice platform. The author does not encourage or condone the use of these methods against any system without explicit written permission. Unauthorized use of these techniques may violate applicable laws and regulations.*
