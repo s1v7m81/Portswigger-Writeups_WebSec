@@ -232,4 +232,4 @@ Turbo Intruder is built for **authorized security testing only** — penetration
 
 ---
 
-*Contributions welcome — feel free to open a PR with additional examples or corrections.*
+*This repository is intended for educational purposes only. All labs are completed on PortSwigger's intentionally vulnerable practice platform. The author does not encourage or condone the use of these techniques against any system without explicit written permission. Unauthorized use may violate applicable laws and regulations.*
