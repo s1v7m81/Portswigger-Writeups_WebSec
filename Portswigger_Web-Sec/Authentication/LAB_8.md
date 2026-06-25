@@ -84,8 +84,6 @@ verify=wiener&mfa-code=482913
 
 Notice the `verify` parameter is what determines whose account the code check applies to.
 
-<!-- Screenshot: Show the GET /login2?verify=wiener request and the follow-up POST with the verify parameter highlighted -->
-
 ---
 
 **Step 2 — Log Out**
