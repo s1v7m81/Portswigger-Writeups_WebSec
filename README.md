@@ -2,11 +2,11 @@
 
 ╔══════════════════════════════════════════════════════════════════╗
 
-║             WEB SECURITY LAB WRITEUPS                            ║
+              WEB SECURITY LAB WRITEUPS                            
 
-║          Methodology : OWASP Web Security Testing Guide          ║
+           Methodology : OWASP Web Security Testing Guide          
 
-║          Report Format: Based on OWASP WSTG Standards            ║
+           Report Format: Based on OWASP WSTG Standards            
 
 ╚══════════════════════════════════════════════════════════════════╝
 
@@ -37,4 +37,4 @@ This repository contains personal writeups for labs completed on two intentional
 
 ---
 
-> **Disclaimer:** This repository is intended for educational purposes only. All labs are completed on intentionally vulnerable practice platforms. The author does not encourage or condone the use of these techniques against any system without explicit written permission. Unauthorized use may violate applicable laws and regulations.
+> **Disclaimer:** *This repository is intended for educational purposes only. All labs are completed on intentionally vulnerable practice platforms. The author does not encourage or condone the use of these techniques against any system without explicit written permission. Unauthorized use may violate applicable laws and regulations.*
